@@ -42,7 +42,7 @@ from sqlalchemy import create_engine
 
 def main():
     engine = create_engine(
-        "mysql+pymysql://root:qwerty@localhost:33061/"
+        "mysql+pymysql://root:tomasz@localhost:3306/"
     )
 
     sql_statements = [
